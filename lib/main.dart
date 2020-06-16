@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // ),
       body: Container(
         decoration: BoxDecoration(
-          image: DecorationImage(image: AssetImage('assets/icons/bg.jpg'),
+          image: DecorationImage(image: AssetImage('assets/icons/bg2.jpg'),
           fit: BoxFit.fill
           )
         ),
@@ -176,13 +176,13 @@ class WeatherPageState extends State<WeatherPage>{
       child: Card(
         elevation: 1.0,
         color: Colors.transparent,
-        child: Container(
-          decoration: BoxDecoration(
-            color: Colors.purple,backgroundBlendMode: BlendMode.darken,
-            borderRadius: BorderRadius.circular(10),
-            image: DecorationImage(image: AssetImage('assets/icons/bottom.jpg'),
-            fit: BoxFit.fill)
-          ),
+        child: Container(color: Colors.transparent,
+          // decoration: BoxDecoration(
+          //   color: Colors.purple,backgroundBlendMode: BlendMode.darken,
+          //   borderRadius: BorderRadius.circular(10),
+          //   image: DecorationImage(image: AssetImage('assets/icons/bottom.jpg'),
+          //   fit: BoxFit.fill)
+          // ),
           child: Stack(
           children: [
             Positioned.fill(
